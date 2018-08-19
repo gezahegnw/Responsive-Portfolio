@@ -233,11 +233,9 @@
   margin-left: 0;
 }
   #main-section{
-    background-color: #ccb1b2;
     padding-bottom: 20px;
     margin: 15px;
     margin-bottom: 300px;
-  /*  margin-left: 30px; */
     width: 90%;
 
 }
@@ -250,10 +248,6 @@ nav {
   
 
 }
-/*
-nav a:first-child {
-  padding-left: 25%;
-} */
 
 #header {
  margin-bottom: 20px;
@@ -289,8 +283,7 @@ nav a:first-child {
 @media screen and (min-width: 640px) and (max-width: 768px ) {
   
   #main-section{
-   max-width: 94%;
-    background-color: #e1e9f1;
+    max-width: 94%;
     padding-bottom: 20px;
     margin-bottom: 400px;
     margin-left: 20px;
@@ -324,9 +317,7 @@ nav a:first-child {
   background: #4aaaa5;
   text-align: center; 
   font-weight: 300;
-  /*line-height: 30px; */
   color: #fff;
- /* margin-bottom: 10px; */
   width: 90%;
   font-size: 16px;
 }
@@ -336,16 +327,13 @@ nav a:first-child {
 }
   @media screen and (min-width:768px) and (max-width: 980px ) {
     
-    
     #main-section{
       width: 75%;
-      background-color: #9bdb80;
       padding-bottom: 20px;
       padding-right: 10px;
       margin-left: 30px;
       margin-bottom: 300px;
-
-    }
+  }
   #logo {
     margin-left: 30px;
   }
@@ -356,8 +344,7 @@ nav a:first-child {
 .image {
   position: relative;
   float: left;
- width: 50%; 
- /* margin: 0 auto; */
+  width: 50%; 
   margin-bottom: 15px;
   margin-top: 15px; 
 }
@@ -365,12 +352,10 @@ nav a:first-child {
 .image:nth-child(even) {
   margin-right: 0;
   margin-left: 0;
-  
 }
 
 .image h3 {
   position: absolute;
-/*  margin-bottom: 0; */
   background: #4aaaa5;
   text-align: center;
   font-weight: 300;
@@ -388,52 +373,3 @@ nav a:first-child {
 
 
 
-/*
-@media screen and (max-width: 768px ) {
-  
-    #main-section{
-      background-color: #d89d88;
-      padding-bottom: 20px;
-      margin-bottom: 500px;
-      margin-left: 15px;
-      margin-right: 20px;
-    }
-    #logo {
-      margin-left: 20px;
-    }
-    
-    #header {
-      margin-bottom: 20px;
-    }
-
-  }
-
-  @media screen and (max-width: 640px) {    
-  
-    #main-section{
-      background-color: #ccb1b2;
-      padding-bottom: 20px;
-      margin: 20px;
-      margin-bottom: 300px;
-      margin-right: 20px;
-}
-  #bio-image {
-    width: 100%;
-  }
-
-  nav {
-    float: none;
-
-  }
-  nav a:first-child {
-    padding-left: 25%;
-  }
-  #logo {
-    width: 100%;
-    margin-left: 0;
-  }
-  #header {
-   margin-bottom: 20px;
-  }
-}
-*/
